@@ -69,4 +69,10 @@ We've designed the code to modularly accept any image encoder that implements th
 (TODO expand this section)
 The main file to look at for editing and building off LERF is `lerf.py`, which extends the Nerfacto model from Nerfstudio, adds an additional language field, losses, and visualization. The CLIP and DINO pre-processing are carried out by `pyramid_interpolator.py` and `dino_dataloader.py`.
 
-# EditLeRF
+## Credits
+This undertaking is a component of the course titled "Machine Learning for 3D Geometry," provided by the Technical University of Munich. The group is composed of the following team members:
+
+- Ali Wali Khan
+- Rachmadio Noval
+- Mert Demirer
+- Wenzhao Tang
